@@ -1,21 +1,21 @@
 # Decentralised Exchange Project
 
 ## Full trading sequence
-## We have 2 traders, Bob and Alice:
+## We have 2 traders, Khagan and Esther:
 
-`Bob wants to buy 1 ABC token, at a price of up to 2 Ethers`
-`Alice wants to sell 1 ABC token, for whatever price`
+`Khagan wants to buy 1 ABC token, at a price of up to 2 Ethers`
+`Esther wants to sell 1 ABC token, for whatever price`
 
 
 ## This is the whole trading sequence:
 
-> Bob sends 2 Ethers to the DEX smart contract.
-> Bob creates a buy limit order (explained later) for a limit price of 2 Ethers, amount of 1 ABC token, and send it to DEX smart contract
-> Alice sends 1 ABC token to the DEX smart contract
-> Alice creates a sell market order (explained later) for an amount of 1 ABC token, and send it to DEX smart contract
-> The smart contract matches Bob and Alice order, and carry out the trade. Bob now owns 1 ABC token and Alice 2 Ethers
-> Bob withdraws his 1 ABC token from the DEX smart contract
-> Alice withdraws her 2 Ethers from the DEX smart contract
+> Khagan sends 2 Ethers to the DEX smart contract.
+> Khagan creates a buy limit order (explained later) for a limit price of 2 Ethers, amount of 1 ABC token, and send it to DEX smart contract
+> Esther sends 1 ABC token to the DEX smart contract
+> Esther creates a sell market order (explained later) for an amount of 1 ABC token, and send it to DEX smart contract
+> The smart contract matches Khagan and Esther order, and carry out the trade. Khagan now owns 1 ABC token and Esther 2 Ethers
+> Khagan withdraws his 1 ABC token from the DEX smart contract
+> Esther withdraws her 2 Ethers from the DEX smart contract
 
 ## Before users can trade, they need to transfer their ERC20 tokens / Ether to the smart contract of the DEX.
 
