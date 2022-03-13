@@ -22,8 +22,8 @@
 ### They will:
 
 > click on a button in the frontend that it will initiate the transfer,
-> confirm the transaction with their wallet
-> and the Ethers / tokens will be sent at the address of the smart contract
+>> confirm the transaction with their wallet
+>>> and the Ethers / tokens will be sent at the address of the smart contract
 
 ## The orderbook is the core part of the DEX. It:
 
@@ -32,7 +32,11 @@
 > Remove limit orders that were executed
 
 ```
-Orderbooks follow a price-time algorithm. When an incoming market order arrive, the orderbook will try to match it with the market order that has the best price. If several limit orders have the same price, the one that was created first get matched in priority.
+Orderbooks follow a price-time algorithm. 
+When an incoming market order arrive, 
+the orderbook will try to match it with the market order that has the best price. 
+If several limit orders have the same price, 
+the one that was created first get matched in priority.
 ```
 
 `What if the amount of the market and limit order don't match? Actually, that's what will happen most of the time. ?`
@@ -40,7 +44,11 @@ Orderbooks follow a price-time algorithm. When an incoming market order arrive, 
 # Basic Sample Hardhat Project
 
 ```
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic Hardhat use case. 
+It comes with a sample contract, a test for that contract, 
+a sample script that deploys that contract, 
+and an example of a task implementation, 
+which simply lists the available accounts.
 ```
 
 Try running some of the following tasks:
